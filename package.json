@@ -1,0 +1,20 @@
+{
+  "name": "fm-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-google-maps": "^9.4.5",
+    "react-scripts": "1.1.5",
+    "react-table": "^6.8.6",
+    "reactjs-popup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://fm-fe-test",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
