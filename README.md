@@ -8,3 +8,6 @@ To run (assumes npm installation):
     Create your own `.env` file, filling in a Google Maps API key
     npm install
     npm start
+    
+    
+Demo: http://fm-fe-test.s3-website.eu-central-1.amazonaws.com/
